@@ -1,0 +1,196 @@
+*{
+    padding: 0; /*limpiamos la hoja*/
+    margin: 0;
+}
+header{
+    margin-left: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+nav{
+    margin-inline: 40px;
+    margin-top: -20px;
+    
+}
+
+@font-face {
+    font-family: "fFoxesCookies";
+    src: url("../font/fFoxesCookies.ttf"); /*importé un estilo de línea para el menú de navegación*/
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: "fFoxesCookies"; /*dándole estilos al menú de navegación*/
+    
+}
+a:hover,.aprende:hover{ /*dándole estilos a los enlaces cuando se pasa encima de ellos*/
+    color: blueviolet;
+    text-decoration: underline; 
+    
+}
+
+button{
+    position:relative;
+    left: 50%;
+    margin-left: 30px;
+    border-radius: 18px;
+    font-size: 15px;
+}
+
+
+button:hover,.b3:hover,.b4:hover{ /*dándole estilos al botón cuando se selecciona*/
+    background-color: aqua;
+}
+
+.B1{
+    padding: 5px 15px; /* con esto logré que la letra se acomodara bien en el botón y no quedara amontonada*/
+
+}
+
+.B2{
+    background-color: black; /*dándole estilos a los botones*/
+    color: azure;
+    padding: 5px 15px;
+}
+
+
+img.logo{
+    height: 60px;
+    
+}
+
+section{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: darkgreen;
+    padding: 50px;
+}
+
+.p1{
+    text-align:center; /*dándole estilos a las letras de los párrafos*/
+    color: azure;
+    font-size: 55px;
+    margin-top: -60px;
+    margin: auto;
+    width: 500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p2{
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a.aprende{
+    text-decoration: underline; /*dándole estilos al enlace dentro de las columna*/
+    color: azure;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+section.alebrije1{
+    background-color: red;
+    padding: 0px;
+}
+
+p.p3{
+    color: azure;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+p.p4{
+
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+button.b3{ /*dándole estilos a los botones dentro de las columnas */
+    margin-left: -8%;
+    margin-top: 30px; 
+    padding: 5px 15px;
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+section.alebrije2{ /*dándole color de fondo a las secciones y ajustando el relleno al mínimo para los elementos que se encontrarán dentro de ellas*/
+    background-color: red;
+    padding: 0px;
+}
+
+p.p5{
+    color: azure;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+p.p6{
+
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button.b4{
+    margin-left: -8%;
+    margin-top: 30px;
+    padding: 5px 15px;
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr.l2{
+    margin-left: 120px;
+    margin-right: 120px;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-left: 7%; /*Acomodando el pie de página*/
+}
+
+
+p.derechos{ /*dándole estilos a las letras en el pie de página*/
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 15px;
+
+}
+
